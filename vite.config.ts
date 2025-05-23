@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: './',               // ← чтобы пути работали из любого подкаталога GH Pages
+  base: '.',               // ← чтобы пути работали из любого подкаталога GH Pages
   plugins: [
     react(),
 
