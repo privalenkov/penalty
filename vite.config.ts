@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '.',               // ← чтобы пути работали из любого подкаталога GH Pages
+  base: './',               // ← чтобы пути работали из любого подкаталога GH Pages
   plugins: [
     react(),
 
@@ -19,8 +19,8 @@ export default defineConfig({
       manifest: {
         name: 'Penalty Tracker',
         short_name: 'Penalties',
-        start_url: '/',
-        scope: '/',
+        start_url: '/penalty',
+        scope: '/penalty',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#6366f1',
